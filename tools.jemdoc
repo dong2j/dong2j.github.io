@@ -1,0 +1,24 @@
+# jemdoc: menu{MENU}{index.html}
+
+= Tools
+
+== Static Compression Experiments
+~~~
+{}{img_left}{hutch.jpeg}{xx}{180px}
+Double-sided laser heating DAC system at APS 13-ID-D.\n
+Image credit: GSECARS\n
+~~~
+
+== First-Principle Simulations
+~~~
+{}{img_left}{silciate_liquid.gif}{xx}{180px}
+DFT-MD simulation of MgSiO3 liquid at 1TPa and 20,000 K.\n
+Image credit: Junjie Dong\n
+~~~
+
+== Thermodynamic Modeling
+~~~
+{}{img_left}{hefesto.png}{xx}{180px}
+Phase diagram of MgSiO3 calculated from HeFESTo.\n
+Image credit: Dong et al., Planet. Sci. J. 2025\n
+~~~

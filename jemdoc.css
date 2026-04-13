@@ -1,0 +1,408 @@
+/* jemdoc CSS — Frédéric Bazille theme
+   Palette drawn from Family Reunion (1867), View of the Village (1868),
+   and the warm Languedoc light throughout his work.
+
+   #2c2a24  charcoal         — deep shadows, headings
+   #4a3f2f  umber            — secondary text, borders
+   #8a6d3b  warm ochre       — rules, footer
+   #6b7a3c  olive foliage    — (available for custom use)
+   #8fa04a  sunlit green     — (available for custom use)
+   #4a6a7a  sky blue         — links, menu links
+   #d6e7ef  pale sky         — (available for custom use)
+   #ede8de  warm linen       — sidebar bg, info blocks
+   #f5f2eb  canvas white     — body background
+   #bfb49a  sand             — borders
+   #c9876a  dusty rose       — blocktitle, La Robe Rose accent
+*/
+
+table#tlayout {
+	border: none;
+	border-collapse: separate;
+	background: #f5f2eb;
+}
+
+body {
+	background: #f5f2eb;
+	font-family: Geneva, sans-serif;
+	padding-bottom: 8px;
+	margin: 0;
+}
+
+#layout-menu {
+	background: #ede8de;
+	border: 1px solid #bfb49a;
+	padding-top: 0.5em;
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 1.0em;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	vertical-align: top;
+}
+
+#layout-menu td {
+	background: #e6e0d4;
+	vertical-align: top;
+}
+
+#layout-content {
+	padding-top: 1.3em;
+	padding-left: 1.0em;
+	padding-right: 1.0em;
+	border: none;
+	background: #f5f2eb;
+	text-align: left;
+	vertical-align: top;
+	min-width: 800px;
+	width: 800px;
+}
+
+#layout-menu a {
+	line-height: 1.5em;
+	margin-left: 0.5em;
+}
+
+tt {
+	background: #e8e2d0;
+}
+
+pre, tt {
+	font-size: 90%;
+	font-family: monaco, monospace;
+}
+
+a, a > tt {
+	color: #4a6a7a;
+	text-decoration: none;
+}
+
+a:hover {
+	border-bottom: 1px #8a6d3b dotted;
+}
+
+#layout-menu a.current:link, #layout-menu a.current:visited {
+	color: #2c2a24;
+	border-bottom: 1px #4a3f2f solid;
+}
+#layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
+	color: #4a6a7a;
+	text-decoration: none;
+}
+#layout-menu a:hover {
+	text-decoration: none;
+}
+
+div.menu-category {
+	border-bottom: 1px solid #8a6d3b;
+	margin-top: 0.8em;
+	padding-top: 0.2em;
+	padding-bottom: 0.1em;
+	font-weight: bold;
+	color: #2c2a24;
+}
+
+div.menu-item {
+	padding-left: 16px;
+	text-indent: -16px;
+}
+
+div#toptitle {
+	padding-bottom: 0.2em;
+	margin-bottom: 1.5em;
+	border-bottom: 3px double #4a3f2f;
+}
+
+/* Reduce space if we begin the page with a title. */
+div#toptitle + h2, div#toptitle + h3 {
+	margin-top: -0.7em;
+}
+
+div#subtitle {
+	margin-top: 0.0em;
+	margin-bottom: 0.0em;
+	padding-top: 0em;
+	padding-bottom: 0.1em;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+
+h1, h2, h3 {
+	color: #2c2a24;
+	margin-top: 0.7em;
+	margin-bottom: 0.3em;
+	padding-bottom: 0.2em;
+	line-height: 1.0;
+	padding-top: 0.5em;
+	border-bottom: 1px solid #8a6d3b;
+}
+
+h1 {
+	font-size: 165%;
+}
+
+h2 {
+	padding-top: 0.8em;
+	font-size: 125%;
+}
+
+h2 + h3 {
+	padding-top: 0.2em;
+}
+
+h3 {
+	font-size: 110%;
+	border-bottom: none;
+	color: #4a3f2f;
+}
+
+p {
+	margin-top: 0.0em;
+	margin-bottom: 0.8em;
+	padding: 0;
+	line-height: 1.3;
+}
+
+pre {
+	padding: 0;
+	margin: 0;
+}
+
+div#footer {
+	font-size: small;
+	border-top: 1px solid #8a6d3b;
+	padding-top: 0.1em;
+	margin-top: 4.0em;
+	color: #8a6d3b;
+}
+
+div#footer a {
+	color: #4a6a7a;
+}
+
+div#footer-text {
+	float: left;
+	padding-bottom: 8px;
+}
+
+ul, ol, dl {
+	margin-top: 0.2em;
+	padding-top: 0;
+	margin-bottom: 0.8em;
+}
+
+dt {
+	margin-top: 0.5em;
+	margin-bottom: 0;
+}
+
+dl {
+	margin-left: 20px;
+}
+
+dd {
+	color: #2c2a24;
+}
+
+dd > *:first-child {
+	margin-top: 0;
+}
+
+ul {
+	list-style-position: outside;
+	list-style-type: square;
+}
+
+p + ul, p + ol {
+	margin-top: -0.5em;
+}
+
+li ul, li ol {
+	margin-top: -0.3em;
+}
+
+ol {
+	list-style-position: outside;
+	list-style-type: decimal;
+}
+
+li p, dd p {
+	margin-bottom: 0.3em;
+}
+
+ol {
+	list-style: none;
+	counter-reset: item;
+	padding-left: 2em;
+}
+
+ol li {
+	counter-increment: item;
+	position: relative;
+}
+
+ol li::before {
+	content: counter(item) ".";
+	position: absolute;
+	left: -2em;
+	color: #4a3f2f;
+	font-weight: bold;
+}
+
+
+ol ol {
+	list-style-type: lower-alpha;
+}
+
+ol ol ol {
+	list-style-type: lower-roman;
+}
+
+p + div.codeblock {
+	margin-top: -0.6em;
+}
+
+div.codeblock, div.infoblock {
+	margin-right: 0%;
+	margin-top: 1.2em;
+	margin-bottom: 1.3em;
+}
+
+div.blocktitle {
+	font-weight: bold;
+	color: #c9876a;
+	margin-top: 1.2em;
+	margin-bottom: 0.1em;
+}
+
+div.blockcontent {
+	border: 1px solid #bfb49a;
+	padding: 0.3em 0.5em;
+}
+
+div.infoblock > div.blockcontent {
+	background: #ede8de;
+}
+
+div.blockcontent p + ul, div.blockcontent p + ol {
+	margin-top: 0.4em;
+}
+
+div.infoblock p {
+	margin-bottom: 0em;
+}
+
+div.infoblock li p, div.infoblock dd p {
+	margin-bottom: 0.5em;
+}
+
+div.infoblock p + p {
+	margin-top: 0.8em;
+}
+
+div.codeblock > div.blockcontent {
+	background: #e8e2d0;
+}
+
+span.pycommand {
+	color: #2c3a00;
+}
+
+span.statement {
+	color: #3a5c00;
+}
+span.builtin {
+	color: #2c3a5c;
+}
+span.special {
+	color: #7a3a00;
+}
+span.operator {
+	color: #5c3a00;
+}
+span.error {
+	color: #7a2020;
+}
+span.comment, span.comment > *, span.string, span.string > * {
+	color: #6e6458;
+}
+
+@media print {
+	#layout-menu {
+		display: none;
+	}
+
+}
+
+#fwtitle {
+	margin: 2px;
+}
+
+#fwtitle #toptitle {
+	padding-left: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#layout-content h1:first-child, #layout-content h2:first-child, #layout-content h3:first-child {
+	margin-top: -0.7em;
+}
+
+div#toptitle h1, #layout-content div#toptitle h1 {
+	margin-bottom: 0.0em;
+	padding-bottom: 0.1em;
+	padding-top: 0;
+	margin-top: 0.5em;
+	border-bottom: none;
+}
+
+img.eq {
+	padding: 0;
+	padding-left: 0.1em;
+	padding-right: 0.1em;
+	margin: 0;
+}
+
+img.eqwl {
+	padding-left: 2em;
+	padding-top: 0.6em;
+	padding-bottom: 0.2em;
+	margin: 0;
+}
+
+table {
+	border: 2px solid #4a3f2f;
+	border-collapse: collapse;
+}
+
+td {
+	padding: 2px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	text-align: center;
+	border: 1px solid #8a6d3b;
+}
+
+table + table {
+	margin-top: 1em;
+}
+
+tr.heading {
+	font-weight: bold;
+	border-bottom: 2px solid #4a3f2f;
+}
+
+img {
+	border: none;
+}
+
+table.imgtable, table.imgtable td {
+	border: none;
+	text-align: left;
+}

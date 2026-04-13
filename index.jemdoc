@@ -1,0 +1,47 @@
+# jemdoc: menu{MENU}{index.html}
+
+= Junjie Dong
+
+~~~
+{}{img_left}{IMG_1399.jpg}{Profile photo}{180px}
+Assistant Professor\n
+Department of Geosciences\n
+State University of New York at Stony Brook\n
+\n
+Office: ESS 255\n
+Email: junjie.dong@stonybrook.edu\n
+\n
+BS, University of Michigan, 2017\n
+PhD, Harvard University, 2023\n
+\n
+[https://scholar.google.com/citations?user=hRzq820AAAAJ&hl=en Google Scholar] \/
+[https://github.com GitHub] \/
+[https://orcid.org/0000-0003-1114-9348 ORCiD]
+~~~
+
+
+== Research
+My research seeks to understand the large-scale structure and long-term evolution of Earth and other planets by investigating how their constituent materials behave at the atomic level.
+
+My group combines laboratory experiments with computer simulations and uses a variety of tools, including multi-anvil presses, diamond anvil cells, molecular dynamics simulations, thermodynamic modeling, and machine learning. These methods allow us to connect the physics and chemistry of planetary materials to geophysical, geochemical, and astronomical observations.
+
+Current topics of interest include:
+
+- Material properties under extreme conditions
+- Water in terrestrial planet evolution and habitability
+- Structure and evolution of giant planets and exoplanets
+
+[group.html Information for prospective students and postdocs.]
+
+== Selected Publications
+- *Nonlinearity of the post-spinel transition and its expression in slabs and plumes worldwide.*
+\n*Junjie Dong*, Rebecca A Fischer, Lars P. Stixrude, Matthew C. Brennan, Kierstin. Daviau, Terry-Ann Suer, Kaitlyn M. Turner, Yue Meng, Vitali. B. Prakapenka
+\n/Nature Communications, 2025/
+\n\[[https://doi.org/10.1038/s41467-025-56231-z Paper]\] \[[https://github.com Code]\]
+
+- *Constraining the volume of Earth's early oceans with a temperature-dependent mantle water storage capacity model.* \n
+  *Junjie Dong*, Rebecca A Fischer, Lars P. Stixrude, Matthew C. Brennan, Kierstin. Daviau, Terry-Ann Suer, Kaitlyn M. Turner, Yue Meng, Vitali. B. Prakapenka \n
+  /AGU Advances, 2021/ \n
+  \[[https://arxiv.org/abs/xxxx Paper]\]
+
+[papers.html → Full list of publications]
