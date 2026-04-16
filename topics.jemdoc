@@ -3,13 +3,22 @@
 = Topics
 
 == Material Properties at Extreme Conditions
-
-#includeraw{material.html}
+~~~
+{}{img_left}{dac.jpeg}{dac}{180px}
+Double-sided laser heating DAC system at APS 13-ID-D.\n
+Image credit: GSECARS\n
+~~~
 
 == Water and Habitability of Rocky Planets
-
-#includeraw{water.html}
+~~~
+{}{img_left}{archean.jpeg}{archean}{180px}
+DFT-MD simulation of MgSiO3 liquid at 1TPa and 20,000 K.\n
+Image credit: Junjie Dong\n
+~~~
 
 == Giant Planets and Exoplanets
-
-#includeraw{giant.html}
+~~~
+{}{img_left}{saturn.png}{saturn}{180px}
+Phase diagram of MgSiO3 calculated from HeFESTo.\n
+Image credit: Dong et al., Planet. Sci. J. 2025\n
+~~~
