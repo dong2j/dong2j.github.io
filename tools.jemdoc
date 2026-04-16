@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}
+# jemdoc: menu{MENU}{tools.html}
 
 = Tools
 
@@ -9,12 +9,20 @@ Double-sided laser heating DAC system at APS 13-ID-D.\n
 Image credit: GSECARS\n
 ~~~
 
-== First-Principle Simulations
+We use diamond anvil cells (DACs) and multi-anvil presses to generate pressures up to several hundred GPa in the laboratory. In a DAC, two gem-quality diamond anvils compress a microscopic sample to mantle or core conditions; double-sided laser heating raises temperatures to thousands of Kelvin. Samples are characterized using synchrotron X-ray diffraction, X-ray fluorescence, Fourier-transform infrared spectroscopy (FTIR), and Raman spectroscopy at national facilities including the Advanced Photon Source (APS) and the Advanced Light Source (ALS).
+
+We have used these methods to study the post-spinel phase transition ([https://doi.org/10.1038/s41467-025-56231-z Dong et al., 2025]), melting curves of carbonates and halides ([https://doi.org/10.2138/am-2019-6891 Dong et al., 2019]; [https://doi.org/10.3390/min10030250 Zhou et al., 2020]), the wetting behavior of iron-carbon melts ([https://doi.org/10.3389/feart.2019.00268 Dong et al., 2019]), and water storage in transition zone minerals ([https://doi.org/10.1073/pnas.1908716116 Zhu et al., 2019]).
+
+== First-Principles Simulations
 ~~~
 {}{img_left}{silciate_liquid.gif}{xx}{180px}
 DFT-MD simulation of MgSiO3 liquid at 1TPa and 20,000 K.\n
 Image credit: Junjie Dong\n
 ~~~
+
+Density functional theory molecular dynamics (DFT-MD) simulates the quantum-mechanical interactions of atoms in minerals and melts at high pressure and temperature, predicting thermodynamic properties, structural parameters, and transport coefficients that are difficult or impossible to measure experimentally. We use DFT-MD to study the structure and dynamics of silicate melts, the diffusion of volatile elements such as hydrogen and carbon through the mantle, and the electronic properties of iron alloys under core conditions.
+
+DFT-MD simulations of MgSiO₃ liquid at pressures up to 1 TPa and temperatures up to 20,000 K underpin our high-pressure equation-of-state database and phase diagram models ([https://doi.org/10.3847/PSJ/adc717 Dong et al., 2025]).
 
 == Thermodynamic Modeling
 ~~~
@@ -22,3 +30,16 @@ Image credit: Junjie Dong\n
 Phase diagram of MgSiO3 calculated from HeFESTo.\n
 Image credit: Dong et al., Planet. Sci. J. 2025\n
 ~~~
+
+We use thermodynamic frameworks — including [https://stixrude.github.io/HeFESTo/ HeFESTo] and self-consistent models built from high-pressure experimental data — to compute mineral stability fields, seismic velocities, and density profiles of planetary interiors. These models translate measurements on individual minerals into predictions about bulk physical properties, enabling direct comparison with seismic tomography and geodetic observations of Earth, Mars, and other bodies.
+
+Thermodynamic modeling of mantle mineral water storage capacity, informed by experimental solubility data, forms the basis of our work on the water inventories of Earth ([https://doi.org/10.1029/2020AV000323 Dong et al., 2021]) and Mars ([https://doi.org/10.1016/j.icarus.2022.115113 Dong et al., 2022]).
+
+== Machine Learning
+We develop and apply machine learning methods to two classes of problems in high-pressure mineral physics.
+
+*Phase diagram inversion.* Experimental observations of phase stability — which phase is present at a given pressure and temperature — can be treated as a classification problem. We use supervised learning (logistic regression and related methods) to invert scattered experimental data into smooth, probabilistic phase boundaries, resolving long-standing disagreements in the literature. This approach yielded a comprehensive high-pressure phase diagram database for the four most abundant planetary materials ([https://doi.org/10.3847/PSJ/adc717 Dong et al., 2025]).
+
+*Mantle water storage capacity.* Bootstrap aggregation (bagging) over high-pressure solubility datasets provides uncertainty-quantified estimates of water storage capacity in olivine, wadsleyite, and ringwoodite as a function of pressure, temperature, and iron content — key inputs for modeling planetary water budgets ([https://doi.org/10.1016/j.icarus.2022.115113 Dong et al., 2022]; [https://www.sciengine.com/BMPG/doi/10.19658/j.issn.1007-2802.2023.42.040 Dong, 2023]).
+
+*Machine learning interatomic potentials.* We are developing MLIPs trained on DFT data that achieve first-principles accuracy at a fraction of the computational cost, enabling longer simulations of larger systems at extreme conditions relevant to planetary interiors.

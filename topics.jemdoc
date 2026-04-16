@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}
+# jemdoc: menu{MENU}{topics.html}
 
 = Topics
 
@@ -9,6 +9,10 @@ Double-sided laser heating DAC system at APS 13-ID-D.\n
 Image credit: GSECARS\n
 ~~~
 
+Earth's interior spans pressures from 1 atm to 364 GPa and temperatures approaching 6000 K. Understanding how minerals and melts behave under these conditions is essential for interpreting seismic observations and constructing accurate models of planetary interiors. We measure equations of state, phase boundaries, melting curves, and transport properties of mantle and core materials using a combination of laboratory experiments and computer simulations.
+
+Recent work includes the discovery that the post-spinel Clapeyron slope varies nonlinearly with temperature — from −2.3 MPa\/K at 1900 K to near zero at 1500 K — with important consequences for how subducting slabs and mantle plumes interact with the 660 km discontinuity ([https://doi.org/10.1038/s41467-025-56231-z Dong et al., /Nature Communications/, 2025]). We have also assembled a comprehensive high-pressure equation-of-state and phase diagram database for Fe, MgO, SiO₂, and MgSiO₃, resolved using machine learning inversion of experimental data ([https://doi.org/10.3847/PSJ/adc717 Dong et al., /Planet. Sci. J./, 2025]).
+
 == Water and Habitability of Rocky Planets
 ~~~
 {}{img_left}{archean.jpeg}{archean}{180px}
@@ -16,9 +20,17 @@ DFT-MD simulation of MgSiO3 liquid at 1TPa and 20,000 K.\n
 Image credit: Junjie Dong\n
 ~~~
 
+Water shapes planetary habitability — from surface oceans to deep mantle reservoirs. We quantify how much water silicate minerals can store at high pressure and temperature, and how that storage capacity has evolved over the history of Earth, Mars, and other rocky bodies. These constraints reveal how water was partitioned between the surface, crust, and mantle across geological time, and whether rocky exoplanets could sustain the conditions for liquid water.
+
+A temperature-dependent model of mantle water storage capacity suggests Earth's early, hotter mantle held far less water in its minerals, implying Archean oceans may have been up to twice their present volume ([https://doi.org/10.1029/2020AV000323 Dong et al., /AGU Advances/, 2021]). On Mars, the present mantle could theoretically store ~9 km of global equivalent water, but limited tectonic recycling means the actual inventory is far lower — pointing to magmatic degassing rather than mantle outgassing as the source of Mars' ancient surface water ([https://doi.org/10.1016/j.icarus.2022.115113 Dong et al., /Icarus/, 2022]).
+
 == Giant Planets and Exoplanets
 ~~~
 {}{img_left}{saturn.png}{saturn}{180px}
 Phase diagram of MgSiO3 calculated from HeFESTo.\n
 Image credit: Dong et al., Planet. Sci. J. 2025\n
 ~~~
+
+The interiors of giant planets and super-Earths reach pressures of thousands to millions of GPa — conditions far beyond the reach of current laboratory experiments. By combining experimental data with machine learning-based inversion, we construct phase diagrams and melting curves for major planetary materials across this extreme pressure range, providing the thermodynamic foundations needed to model the internal structure of gas giants, ice giants, and massive rocky exoplanets.
+
+Our high-pressure phase diagram database for Fe, MgO, SiO₂, and MgSiO₃ extends to 5000 GPa and resolves long-standing disputes about melting curves under super-Earth interior conditions ([https://doi.org/10.3847/PSJ/adc717 Dong et al., /Planet. Sci. J./, 2025]). These results enable more accurate models of layering, density profiles, and heat flow in distant planetary bodies that cannot be studied directly.
