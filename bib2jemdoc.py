@@ -36,11 +36,15 @@ def format_entry(e):
     volume  = e.get('volume', '')
     pages   = e.get('pages', '')
     doi     = e.get('doi', '')
-    ref = f"{authors} ({year}). {title}. /{journal}/"
-    if volume: ref += f", {volume}"
-    if pages:  ref += f", {pages}"
-    ref += '.'
-    if doi:    ref += f" \\[https://doi.org/{doi} DOI\\]"
+    url     = e.get('url', '')
+    details = ", ".join(x for x in [volume, pages] if x)
+    ref = f"{authors} ({year}). {title}."
+    if details:
+        ref += f" /{journal}/, {details}."
+    else:
+        ref += f" /{journal}/"
+    if doi:    ref += f" \[[https://doi.org/{doi} DOI]\]"
+    elif url:  ref += f" \[[{url} Link]\]"
     return ref
 
 bib_path = sys.argv[1]
