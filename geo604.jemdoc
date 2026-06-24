@@ -16,20 +16,20 @@ Water is inseparable from life as we know it and from the physical, chemical, an
 
 ~~~
 {}{table}{schedule}
-Week | Topic | Papers ||
+Week | Topic | Suggested Papers ||
 1 | Orientation | --- ||
-2 | Habitability: A Conceptual History  | TBD ||
-3 | The Origin of Water on Earth | TBD ||
-4 | Water and the Deep Interior | TBD ||
-5 | Water and Plate Tectonics | TBD ||
-6 | Snowball Earth and Climate Extremes | TBD ||
-7 | Mars: A Wet Past? | TBD ||
-8 | Venus: A Fail Earth? | TBD ||
-9 | Icy Moons and Hidden Oceans | TBD ||
-10 | Exoplanets and the Limits of Habitability | TBD ||
+2 | What Is Habitability, and Why Water? | Dole and Asimov (1964), Ch. 1--2 from /Planets for Man/\nCockell et al (2016)\nApai et al (2025) ||
+3 | The Origin of Water on Earth | Morbidelli et al. (2012)\nBreuer (2018)\nVulpius et al. (2026) ||
+4 | Water and the Deep Interior | van Thienen et al. (2007)\nKorenaga et al. (2017)\nDong et al (2021) ||
+5 | Water and Plate Tectonics | Foley (2015)\nLenardic et al. (2016)\nGuimond et al. (2026) ||
+6 | Snowball Earth and Climate Extremes | Budyko (1969)\nPierrehumbert et al. (2011)\nHoffman (2019)\n ||
+7 | Mars: A Wet Past? | Vertesi (2015), Intro. from /See Like A Rover/\nMcMahon et al. (2018)\nCitron et al. (2018)\nWang and Huang (2024)||
+8 | Venus: A Failed Earth? | Way and Del Genio (2020)\nKrissansen-Totton et al. (2021)\nSalvador et al. (2023) ||
+9 | Icy Moons and Hidden Oceans | Horneck et al. (2016)\nPappalardo et al. (2024)\nNimmo (2025) ||
+10 | Exoplanets and the Limits of Habitability | Schneider et al. (2015)\nMadhusudhan et al. (2016)\nCatling et al. (2018)||
 11 | The Physics and Chemistry of Water | TBD ||
-12 | Water and the Emergence of Life | TBD ||
-13 | Synthesis  | ---
+12 | Water and the Emergence of Life | Darwin (1871)\nBada and Korenaga (2018)\nOmran and Pasek (2020)\nKorenaga (2021)\nGeorgieva et al. (2021) ||
+13 | Negative Spaces: Life Without/Beyond Water | TBD
 ~~~
 
 == Policies
@@ -39,27 +39,53 @@ Week | Topic | Papers ||
 . We follow the University's [https://www.stonybrook.edu/commcms/academic_integrity/policies_procedures/index.php Academic Integrity Policy], (including on [https://www.stonybrook.edu/commcms/academic_integrity/generative-ai/index.php?accordion=content-d19e272 Generative AI and LLMs]); any use must be disclosed.
 
 == References
-. Vulpius, S., Runge, E., Herwartz, D., Pack, A., Brachmann, C., Noack, L. (2026). Formation and redox evolution of Earth’s early atmosphere and hydrosphere. /Nature Reviews Earth \& Environment/ \[[https://doi.org/10.1038/s43017-026-00803-0 DOI]\]
 . Zaki, A.S., Lamb, M.P. (2026). Identifying the topographic signature of early Martian oceans. /Nature/, 652, 878--885. \[[https://doi.org/10.1038/s41586-026-10381-2 DOI]\]
+. Vulpius, S., Runge, E., Herwartz, D., Pack, A., Brachmann, C., Noack, L. (2026). Formation and redox evolution of Earth’s early atmosphere and hydrosphere. /Nature Reviews Earth \& Environment/ \[[https://doi.org/10.1038/s43017-026-00803-0 DOI]\]
+. Guimond, C.M., Spohn, T., Berdyugina, S., Byrne, P.K., Coltice, N., Glaser, D.M., Lingam, M., Lineweaver, C.H., Cawood, P.A. (2026). Water Versus Land on Temperate Rocky Planets. /Space Science Reviews/, 222, 8. \[[https://doi.org/10.1007/s11214-025-01264-5 DOI]\]
 . Li, J., Liu, H., Meng, X., Duan, D., Lu, H., Zhang, J., Zhang, F., Elsworth, D., Cardenas, B.T., Manga, M., Zhou, B., Fang, G. (2025). Ancient ocean coastal deposits imaged on Mars. /Proceedings of the National Academy of Sciences/, 122, e2422213122. \[[https://doi.org/10.1073/pnas.2422213122 DOI]\]
+. Nimmo, F. (2025). Surfaces, interiors and evolution of solar system moons. /Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences/, 481, 20240806. \[[https://doi.org/10.1098/rspa.2024.0806 DOI]\]
+. Apai, D., Barnes, R., Murphy, M.M., Lichtenberg, T., Tuchow, N., Ferrière, R., Wagner, K., Affholder, A., Malhotra, R., Journaux, B., Vazan, A., Ramirez, R., Méndez, A., Kane, S.R., Klawender, V.H., {NExSS Quantitative Habitability Science Working Group (2025). A Terminology and Quantitative Framework for Assessing the Habitability of Solar System and Extraterrestrial Worlds. /The Planetary Science Journal/, 6, 165. \[[https://doi.org/10.3847/PSJ/addda8 DOI]\]
 . Wang, L., Huang, J. (2024). Hypothesis of an ancient northern ocean on Mars and insights from the Zhurong rover. /Nature Astronomy/, 8, 1220--1229. \[[https://doi.org/10.1038/s41550-024-02343-3 DOI]\]
+. Pappalardo, R.T., Buratti, B.J., Korth, H., Senske, D.A., Blaney, D.L., Blankenship, D.D., Burch, J.L., Christensen, P.R., Kempf, S., Kivelson, M.G., Mazarico, E., Retherford, K.D., Turtle, E.P., Westlake, J.H., Paczkowski, B.G., Ray, T.L., Kampmeier, J., Craft, K.L., Howell, S.M., Klima, R.L., Leonard, E.J., Matiella Novak, A., Phillips, C.B., Daubar, I.J., Blacksberg, J., Brooks, S.M., Choukroun, M.N., Cochrane, C.J., Diniega, S., Elder, C.M., Ernst, C.M., Gudipati, M.S., Luspay-Kuti, A., Piqueux, S., Rymer, A.M., Roberts, J.H., Steinbrügge, G., Cable, M.L., Scully, J.E.C., Castillo-Rogez, J.C., Hay, H.C.F.C., Persaud, D.M., Glein, C.R., McKinnon, W.B., Moore, J.M., Raymond, C.A., Schroeder, D.M., Vance, S.D., Wyrick, D.Y., Zolotov, M.Y., Hand, K.P., Nimmo, F., McGrath, M.A., Spencer, J.R., Lunine, J.I., Paty, C.S., Soderblom, J.M., Collins, G.C., Schmidt, B.E., Rathbun, J.A., Shock, E.L., Becker, T.C., Hayes, A.G., Prockter, L.M., Weiss, B.P., Hibbitts, C.A., Moussessian, A., Brockwell, T.G., Hsu, H., Jia, X., Gladstone, G.R., McEwen, A.S., Patterson, G.W., McNutt, R.L., Evans, J.P., Larson, T.W., Cangahuala, L.A., Havens, G.G., Buffington, B.B., Bradley, B., Campagnola, S., Hardman, S.H., Srinivasan, J.M., Short, K.L., Jedrey, T.C., St. Vaughn, J.A., Clark, K.P., Vertesi, J., Niebur, C. (2024). Science Overview of the Europa Clipper Mission. /Space Science Reviews/, 220, 40. \[[https://doi.org/10.1007/s11214-024-01070-5 DOI]\]
+. Salvador, A., Avice, G., Breuer, D., Gillmann, C., Lammer, H., Marcq, E., Raymond, S.N., Sakuraba, H., Scherf, M., Way, M.J. (2023). Magma Ocean. /Space Science Reviews/, 219, 51. \[[https://doi.org/10.1007/s11214-023-00995-7 DOI]\]
 . Sholes, S.F., Rivera-Hernández, F. (2022). Constraints on the uncertainty, timing, and magnitude of potential Mars oceans from topographic deformation models. /Icarus/, 378, 114934. \[[https://doi.org/10.1016/j.icarus.2022.114934 DOI]\]
-. Korenaga, J. (2021). Was There Land on the Early Earth?. /Life/, 11, 1142. \[[https://doi.org/10.3390/life11111142 DOI]\]
-. Krissansen-Totton, J., Fortney, J.J., Nimmo, F. (2021). Was Venus Ever Habitable? Constraints from a Coupled Interior–Atmosphere–Redox Evolution Model. /The Planetary Science Journal/, 2, 216. \[[https://doi.org/10.3847/PSJ/ac2580 DOI]\]
-. Turbet, M., Bolmont, E., Chaverot, G., Ehrenreich, D., Leconte, J., Marcq, E. (2021). Day–night cloud asymmetry prevents early oceans on Venus but not on Earth. /Nature/, 598, 276--280. \[[https://doi.org/10.1038/s41586-021-03873-w DOI]\]
 . Sholes, S.F., Dickeson, Z.I., Montgomery, D.R., Catling, D.C. (2021). Where are Mars’ Hypothesized Ocean Shorelines? Large Lateral and Topographic Offsets Between Different Versions of Paleoshoreline Maps. /Journal of Geophysical Research: Planets/, 126, e2020JE006486. \[[https://doi.org/10.1029/2020JE006486 DOI]\]
-. Kite, E.S., Ford, E.B. (2018). Habitability of Exoplanet Waterworlds. /The Astrophysical Journal/, 864, 75. \[[https://doi.org/10.3847/1538-4357/aad6e0 DOI]\]
+. Turbet, M., Bolmont, E., Chaverot, G., Ehrenreich, D., Leconte, J., Marcq, E. (2021). Day–night cloud asymmetry prevents early oceans on Venus but not on Earth. /Nature/, 598, 276--280. \[[https://doi.org/10.1038/s41586-021-03873-w DOI]\]
+. Krissansen-Totton, J., Fortney, J.J., Nimmo, F. (2021). Was Venus Ever Habitable? Constraints from a Coupled Interior–Atmosphere–Redox Evolution Model. /The Planetary Science Journal/, 2, 216. \[[https://doi.org/10.3847/PSJ/ac2580 DOI]\]
+. Korenaga, J. (2021). Was There Land on the Early Earth?. /Life/, 11, 1142. \[[https://doi.org/10.3390/life11111142 DOI]\]
+. Georgieva, M.N., Little, C.T., Maslennikov, V.V., Glover, A.G., Ayupova, N.R., Herrington, R.J. (2021). The history of life at hydrothermal vents. /Earth-Science Reviews/, 217, 103602. \[[https://doi.org/10.1016/j.earscirev.2021.103602 DOI]\]
+. Way, M.J., Del Genio, A.D. (2020). Venusian Habitable Climate Scenarios: Modeling Venus Through Time and Applications to Slowly Rotating Venus‐Like Exoplanets. /Journal of Geophysical Research: Planets/, 125, e2019JE006276. \[[https://doi.org/10.1029/2019JE006276 DOI]\]
+. Omran, A., Pasek, M. (2020). A Constructive Way to Think about Different Hydrothermal Environments for the Origins of Life. /Life/, 10, 36. \[[https://doi.org/10.3390/life10040036 DOI]\]
+. Hoffman, P.F. (2019). Big Time. /Annual Review of Earth and Planetary Sciences/, 47, 1--17. \[[https://doi.org/10.1146/annurev-earth-053018-060145 DOI]\]
 . Citron, R.I., Manga, M., Hemingway, D.J. (2018). Timing of oceans on Mars from shoreline deformation. /Nature/, 555, 643--646. \[[https://doi.org/10.1038/nature26144 DOI]\]
+. Kite, E.S., Ford, E.B. (2018). Habitability of Exoplanet Waterworlds. /The Astrophysical Journal/, 864, 75. \[[https://doi.org/10.3847/1538-4357/aad6e0 DOI]\]
+. Catling, D.C., Krissansen-Totton, J., Kiang, N.Y., Crisp, D., Robinson, T.D., DasSarma, S., Rushby, A.J., Del Genio, A., Bains, W., Domagal-Goldman, S. (2018). Exoplanet Biosignatures: A Framework for Their Assessment. /Astrobiology/, 18, 709--738. \[[https://doi.org/10.1089/ast.2017.1737 DOI]\]
+. McMahon, S., Bosak, T., Grotzinger, J.P., Milliken, R.E., Summons, R.E., Daye, M., Newman, S.A., Fraeman, A., Williford, K.H., Briggs, D.E.G. (2018). A Field Guide to Finding Fossils on Mars. /Journal of Geophysical Research: Planets/, 123, 1012--1040. \[[https://doi.org/10.1029/2017JE005478 DOI]\]
+. Breuer, D. (2018). Early planetary atmospheres and surfaces: Origin of the Earth’s water, crust and atmosphere. /Proceedings of the International Astronomical Union/, 14, 156--163. \[[https://doi.org/10.1017/S1743921319001807 DOI]\]
+. Bada, J.L., Korenaga, J. (2018). Exposed Areas Above Sea Level on Earth \textgreater3.5 Gyr Ago: Implications for Prebiotic and Primitive Biotic Chemistry. /Life/, 8, 55. \[[https://doi.org/10.3390/life8040055 DOI]\]
 . Cockell, C., Bush, T., Bryce, C., Direito, S., Fox-Powell, M., Harrison, J., Lammer, H., Landenmark, H., Martin-Torres, J., Nicholson, N., Noack, L., O'Malley-James, J., Payler, S., Rushby, A., Samuels, T., Schwendner, P., Wadsworth, J., Zorzano, M. (2016). Habitability: A Review. /Astrobiology/, 16, 89--117. \[[https://doi.org/10.1089/ast.2015.1295 DOI]\]
+. Madhusudhan, N., Agúndez, M., Moses, J.I., Hu, Y. (2016). Exoplanetary Atmospheres—Chemistry. /Space Science Reviews/, 205, 285--348. \[[https://doi.org/10.1007/s11214-016-0254-3 DOI]\]
+. Lenardic, A., Jellinek, A.M., Foley, B., O'Neill, C., Moore, W.B. (2016). Climate‐tectonic coupling: Variations in the mean, variations about the mean, and variations in mode. /Journal of Geophysical Research: Planets/, 121, 1831--1864. \[[https://doi.org/10.1002/2016JE005089 DOI]\]
+. Schneider, J., Lainey, V., Cabrera, J. (2015). A next step in exoplanetology: exo-moons. /International Journal of Astrobiology/, 14, 191--199. \[[https://doi.org/10.1017/S1473550414000299 DOI]\]
+. Foley, B.J. (2015). THE ROLE OF PLATE TECTONIC–CLIMATE COUPLING AND EXPOSED LAND AREA IN THE DEVELOPMENT OF HABITABLE CLIMATES ON ROCKY PLANETS. /The Astrophysical Journal/, 812, 36. \[[https://doi.org/10.1088/0004-637X/812/1/36 DOI]\]
 . Seager, S. (2013). Exoplanet Habitability. /Science/, 340, 577--581. \[[https://doi.org/10.1126/science.1232226 DOI]\]
+. Morbidelli, A., Lunine, J., O'Brien, D., Raymond, S., Walsh, K. (2012). Building Terrestrial Planets. /Annual Review of Earth and Planetary Sciences/, 40, 251--275. \[[https://doi.org/10.1146/annurev-earth-042711-105319 DOI]\]
 . Abe, Y., Abe-Ouchi, A., Sleep, N.H., Zahnle, K.J. (2011). Habitable Zone Limits for Dry Planets. /Astrobiology/, 11, 443--460. \[[https://doi.org/10.1089/ast.2010.0545 DOI]\]
+. Pierrehumbert, R., Abbot, D., Voigt, A., Koll, D. (2011). Climate of the Neoproterozoic. /Annual Review of Earth and Planetary Sciences/, 39, 417--460. \[[https://doi.org/10.1146/annurev-earth-040809-152447 DOI]\]
 . Crowe, M.J. (2008). The Extraterrestrial Life Debate - Antiquity to 1915: A Source Book. //
 . Dole, S.H. (2007). Habitable Planets for Man. // \[[https://doi.org/10.7249/CB179-1 DOI]\]
+. Van Thienen, P., Benzerara, K., Breuer, D., Gillmann, C., Labrosse, S., Lognonné, P., Spohn, T. (2007). Water, Life. /Space Science Reviews/, 129, 167--203. \[[https://doi.org/10.1007/s11214-007-9149-7 DOI]\]
+. Ward, P.D. (2005). Life as we do not know it: the NASA search for (and synthesis of) alien life. //
 . Stevenson, D.J. (2004). Planetary Diversity. /Physics Today/, 57, 43--48. \[[https://doi.org/10.1063/1.1752421 DOI]\]
-. Carr, M.H. (1996). Water On Mars. // \[[https://doi.org/10.1093/oso/9780195099386.001.0001 DOI]\]
+. Clark, S., Clark, S. (2000). Life on other worlds and how to find it. //
+. Jakosky, B.M. (1998). The search for life on other planets. //
 . Dick, S.J. (1996). The Biological Universe: The Twentieth Century Extraterrestrial Life Debate and the Limits of Science. //
+. Carr, M.H. (1996). Water On Mars. // \[[https://doi.org/10.1093/oso/9780195099386.001.0001 DOI]\]
 . Dick, S.J. (1984). Plurality of Worlds: The Extraterrestrial Life Debate from Democritus to Kant. //
 . Hart, M.H. (1978). The evolution of the atmosphere of the earth. /Icarus/, 33, 23--39. \[[https://doi.org/10.1016/0019-1035(78)90021-0 DOI]\]
+. Budyko, M.I. (1969). The effect of solar radiation variations on the climate of the Earth. /Tellus/, 21, 611--619. \[[https://doi.org/10.1111/j.2153-3490.1969.tb00466.x DOI]\]
+. Sagan, C., Shklovsky, I.S. (1966). Intelligent Life in the Universe. //
 . Dole, S.H., Asimov, I. (1964). Planets for Man. // \[[https://www.rand.org/pubs/commercial_books/CB183-1.html Link]\]
 . Huang, S. (1960). The Sizes of Habitable Planets. /Publications of the Astronomical Society of the Pacific/, 72, 489. \[[https://doi.org/10.1086/127586 DOI]\]
 . Lowell, P. (1908). Mars as the Abode of Life. // \[[https://www.loc.gov/item/08036795/ Link]\]
+. Darwin Correspondence Project (n.d.). Letter no. 7471. // \[[https://www.darwinproject.ac.uk/letter/?docId=letters/DCP-LETT-7471.xml Link]\]
