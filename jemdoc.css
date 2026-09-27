@@ -1,38 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&display=swap');
 
-/* jemdoc CSS — Frédéric Bazille theme
-   Palette drawn from Family Reunion (1867), View of the Village (1868),
-   and the warm Languedoc light throughout his work.
-
-   #2c2a24  charcoal         — deep shadows, headings
-   #4a3f2f  umber            — secondary text, borders
-   #8a6d3b  warm ochre       — rules, footer
-   #6b7a3c  olive foliage    — (available for custom use)
-   #8fa04a  sunlit green     — (available for custom use)
-   #4a6a7a  sky blue         — links, menu links
-   #d6e7ef  pale sky         — (available for custom use)
-   #ede8de  warm linen       — sidebar bg, info blocks
-   #f5f2eb  canvas white     — body background
-   #bfb49a  sand             — borders
-   #c9876a  dusty rose       — blocktitle, La Robe Rose accent
+/* jemdoc CSS — NYTimes color palette (4 colors)
+   #ffffff  white     — all backgrounds
+   #e2e2e2  gray      — hairlines, borders
+   #121212  ink       — text, headings, strong rules
+   #326891  NYT blue  — links
 */
 
 table#tlayout {
 	border: none;
 	border-collapse: separate;
-	background: #f5f2eb;
+	background: #ffffff;
 }
 
 body {
-    background: #f5f2eb;
-    font-family: "Inter", sans-serif;
+    background: #ffffff;
+    font-family: "Libre Franklin", "Helvetica Neue", Arial, sans-serif;
     padding-bottom: 8px;
     margin: 0;
 }
 
 #layout-menu {
-	background: #ede8de;
-	border: 1px solid #bfb49a;
+	background: #ffffff;
+	border: 1px solid #e2e2e2;
 	padding-top: 0.5em;
 	padding-left: 8px;
 	padding-right: 8px;
@@ -44,7 +34,7 @@ body {
 }
 
 #layout-menu td {
-	background: #e6e0d4;
+	background: #ffffff;
 	vertical-align: top;
 }
 
@@ -53,7 +43,7 @@ body {
 	padding-left: 1.0em;
 	padding-right: 1.0em;
 	border: none;
-	background: #f5f2eb;
+	background: #ffffff;
 	text-align: left;
 	vertical-align: top;
 	min-width: 800px;
@@ -66,7 +56,7 @@ body {
 }
 
 tt {
-	background: #e8e2d0;
+	background: #ffffff;
 }
 
 pre, tt {
@@ -75,20 +65,20 @@ pre, tt {
 }
 
 a, a > tt {
-	color: #4a6a7a;
+	color: #326891;
 	text-decoration: none;
 }
 
 a:hover {
-	border-bottom: 1px #8a6d3b dotted;
+	border-bottom: 1px #326891 dotted;
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-	color: #2c2a24;
-	border-bottom: 1px #4a3f2f solid;
+	color: #121212;
+	border-bottom: 1px #121212 solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-	color: #4a6a7a;
+	color: #121212;
 	text-decoration: none;
 }
 #layout-menu a:hover {
@@ -96,12 +86,12 @@ a:hover {
 }
 
 div.menu-category {
-	border-bottom: 1px solid #8a6d3b;
+	border-bottom: 1px solid #121212;
 	margin-top: 0.8em;
 	padding-top: 0.2em;
 	padding-bottom: 0.1em;
 	font-weight: bold;
-	color: #2c2a24;
+	color: #121212;
 }
 
 div.menu-item {
@@ -112,7 +102,7 @@ div.menu-item {
 div#toptitle {
 	padding-bottom: 0.2em;
 	margin-bottom: 1.5em;
-	border-bottom: 3px double #4a3f2f;
+	border-bottom: 3px double #121212;
 }
 
 /* Reduce space if we begin the page with a title. */
@@ -137,13 +127,13 @@ strong {
 
 
 h1, h2, h3 {
-	color: #2c2a24;
+	color: #121212;
 	margin-top: 0.7em;
 	margin-bottom: 0.3em;
 	padding-bottom: 0.2em;
 	line-height: 1.0;
 	padding-top: 0.5em;
-	border-bottom: 1px solid #8a6d3b;
+	border-bottom: 1px solid #e2e2e2;
 }
 
 h1 {
@@ -162,7 +152,7 @@ h2 + h3 {
 h3 {
 	font-size: 110%;
 	border-bottom: none;
-	color: #4a3f2f;
+	color: #121212;
 }
 
 p {
@@ -179,14 +169,14 @@ pre {
 
 div#footer {
 	font-size: small;
-	border-top: 1px solid #8a6d3b;
+	border-top: 1px solid #e2e2e2;
 	padding-top: 0.1em;
 	margin-top: 4.0em;
-	color: #8a6d3b;
+	color: #121212;
 }
 
 div#footer a {
-	color: #4a6a7a;
+	color: #121212;
 }
 
 div#footer-text {
@@ -210,7 +200,7 @@ dl {
 }
 
 dd {
-	color: #2c2a24;
+	color: #121212;
 }
 
 dd > *:first-child {
@@ -254,7 +244,7 @@ ol li::before {
 	content: counter(item) ".";
 	position: absolute;
 	left: -2em;
-	color: #4a3f2f;
+	color: #121212;
 	font-weight: bold;
 }
 
@@ -279,18 +269,18 @@ div.codeblock, div.infoblock {
 
 div.blocktitle {
 	font-weight: bold;
-	color: #c9876a;
+	color: #121212;
 	margin-top: 1.2em;
 	margin-bottom: 0.1em;
 }
 
 div.blockcontent {
-	border: 1px solid #bfb49a;
+	border: 1px solid #e2e2e2;
 	padding: 0.3em 0.5em;
 }
 
 div.infoblock > div.blockcontent {
-	background: #ede8de;
+	background: #ffffff;
 }
 
 div.blockcontent p + ul, div.blockcontent p + ol {
@@ -310,7 +300,7 @@ div.infoblock p + p {
 }
 
 div.codeblock > div.blockcontent {
-	background: #e8e2d0;
+	background: #ffffff;
 }
 
 span.pycommand {
@@ -333,7 +323,7 @@ span.error {
 	color: #7a2020;
 }
 span.comment, span.comment > *, span.string, span.string > * {
-	color: #6e6458;
+	color: #888888;
 }
 
 @media print {
@@ -379,7 +369,7 @@ img.eqwl {
 }
 
 table {
-	border: 2px solid #4a3f2f;
+	border: 2px solid #121212;
 	border-collapse: collapse;
 }
 
@@ -388,7 +378,7 @@ td {
 	padding-left: 0.5em;
 	padding-right: 0.5em;
 	text-align: center;
-	border: 1px solid #8a6d3b;
+	border: 1px solid #e2e2e2;
 }
 
 table + table {
@@ -397,7 +387,7 @@ table + table {
 
 tr.heading {
 	font-weight: bold;
-	border-bottom: 2px solid #4a3f2f;
+	border-bottom: 2px solid #121212;
 }
 
 img {
