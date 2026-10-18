@@ -1,10 +1,6 @@
-MAIN
+MENU
 	Home			[index.html]
-	Bio			[bio.html] 
-RESEARCH			
+	Bio			[bio.html] 			
 	Papers			[papers.html]
 	Group			[group.html]
-TEACHING			
-	GEO604			[geo604.html]
-
-
+        Teaching                [teaching.html]
