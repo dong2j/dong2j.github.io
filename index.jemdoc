@@ -60,7 +60,10 @@ Current topics of interest include:
 
 ~~~
 {}{raw}
-<div style="max-width:200px; height:100px; overflow:hidden; margin:3em 0 0 0; opacity:0.9;">
+<div style="margin:3em 0 0 0;">
+<div style="max-width:200px; height:100px; overflow:hidden; opacity:0.9;">
 <script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=200&t=n&d=cj0_NKKgzC8h-EU4e1xFiPX55pkjiFpcgAaJ7S_z1ko&co=80a0b0&cmo=cd7b62&cmn=cd7b62&ct=ffffff'></script>
+</div>
+<div style="font-size:0.8em; color:#808080; margin-top:0.3em;">Thanks for stopping by!</div>
 </div>
 ~~~
