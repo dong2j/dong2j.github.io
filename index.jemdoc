@@ -60,7 +60,7 @@ Current topics of interest include:
 
 ~~~
 {}{raw}
-<div style="width:160px; margin:3em auto 0; opacity:0.85;">
-<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=zvnXIW_Bmh0Dx8Njn5LNCBffTa72kZzqgDQO61qBbFM"></script>
+<div style="max-width:200px; margin:3em 0 0 0; opacity:0.9;">
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=200&t=n&d=cj0_NKKgzC8h-EU4e1xFiPX55pkjiFpcgAaJ7S_z1ko&co=80a0b0&cmo=cd7b62&cmn=cd7b62&ct=ffffff'></script>
 </div>
 ~~~
