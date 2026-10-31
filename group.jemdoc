@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{group.html}
+# jemdoc: menu{MENU}{group.html}, title{Group}
 
 = Group
 
@@ -6,14 +6,15 @@
 
 ~~~
 {}{img_left}{figs/minerals/wadsleyite.png}{Brian Gulick}{180px}
-Brian Gulick \[[https://briangulick.cv Web]\]\n
-(Graduate, 2026-)
+Brian Gulick\n
+(Graduate researcher, 2026–)\n
+\[[https://briangulick.cv Web]\]
 ~~~
 
 ~~~
-{}{img_left}{figs/minerals/Fa50.png}{Zhao Lanxun}{180px}
+{}{img_left}{figs/minerals/Fa50.png}{Lanxun Zhao}{180px}
 Lanxun Zhao\n
-(Undergraduate, 2026-)
+(Undergraduate researcher, 2026–)
 ~~~
 
 == Join Us

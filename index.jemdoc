@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}
+# jemdoc: menu{MENU}{index.html}, title{Home}
 
 = Junjie Dong
 
@@ -8,7 +8,6 @@ Assistant Professor\n
 Department of Geosciences\n
 Mineral Physics Institute\n
 Stony Brook University\n
-State University of New York\n
 \n
 #Office: ESS 252\n
 Email: junjie.dong@stonybrook.edu\n
@@ -23,11 +22,13 @@ PhD, Harvard University, 2023\n
 
 
 == Research
-I am interested in planetary materials broadly, including minerals and rocks, metals, and ices. Their atomic-scale properties control how planets form and evolve over time. 
+I am interested in planetary materials broadly, including minerals and rocks, metals, and ices. Their atomic scale properties control how planets form and evolve over time. 
 
-My research group recreates the extreme pressures and temperatures of planetary interiors, combining multi anvil and diamond anvil cell experiments at synchrotron sources with /ab initio/ molecular dynamics and thermodynamic modeling. With these methods, we connect the physics and chemistry of planetary materials to what we observe of Earth and other planets, geophysically, geochemically, and astronomically.
+My group recreates the extreme conditions of planetary interiors, combining high-pressure experiments at synchrotron sources with atomistic and thermodynamic modeling. 
 
-Current topics of interest include:
+These tools let us connect the physics and chemistry of materials to what we observe of Earth and other planets, geophysically, geochemically, and astronomically.
+
+Current interests:
 
 - Thermodynamics of planetary materials
 - Volatiles and the habitability of rocky planets
@@ -39,22 +40,17 @@ Current topics of interest include:
 - *Structure and melting of Fe, MgO, SiO₂, and MgSiO₃ in planets: Database, inversion, and phase diagram*
 \n*Junjie Dong*, Gabriel-Darius Mardaru, Paul D. Asimow, Lars P. Stixrude, Rebecca A. Fischer
 \n/The Planetary Science Journal, 2025/\n
-\[[https://doi.org/10.3847/PSJ/adc717 Publisher's version]\] \[[https://doi.org/10.48550/arXiv.2503.21734 arXiv]\] \[[https://github.com/dong2j/HP-PEDPM Database]\]
+\[[https://doi.org/10.3847/PSJ/adc717 Paper]\] \[[https://doi.org/10.48550/arXiv.2503.21734 arXiv]\] \[[https://github.com/dong2j/HP-PEDPM Database]\]
 
-- *Nonlinearity of the post-spinel transition and its expression in slabs and plumes worldwide.*
-\n*Junjie Dong*, Rebecca A Fischer, Lars P. Stixrude, Matthew C. Brennan, Kierstin. Daviau, Terry-Ann Suer, Kaitlyn M. Turner, Yue Meng, Vitali. B. Prakapenka
+- *Nonlinearity of the post-spinel transition and its expression in slabs and plumes worldwide*
+\n*Junjie Dong*, Rebecca A. Fischer, Lars P. Stixrude, Matthew C. Brennan, Kierstin Daviau, Terry-Ann Suer, Kaitlyn M. Turner, Yue Meng, Vitali B. Prakapenka
 \n/Nature Communications, 2025/\n
-\[[https://doi.org/10.1038/s41467-025-56231-z Publisher's version]\] \[[https://doi.org/10.48550/arXiv.2208.08975 arXiv]\] \[[https://github.com/dong2j/MLPD Code]\] \[[https://doi.org/10.1126/science.zmzatwi News article from Science]\] \[[https://phys.org/news/2025-02-lab-evidence-earth-mantle-complex.html News article from Phys.org]\]
+\[[https://doi.org/10.1038/s41467-025-56231-z Paper]\] \[[https://doi.org/10.48550/arXiv.2208.08975 arXiv]\] \[[https://github.com/dong2j/MLPD Code]\]
 
-- *Constraining the volume of Earth's early oceans with a temperature-dependent mantle water storage capacity model.* \n
-  *Junjie Dong*, Rebecca A Fischer, Lars P. Stixrude, Carolina Lithgow-Bertelloni \n
+- *Constraining the volume of Earth's early oceans with a temperature-dependent mantle water storage capacity model* \n
+  *Junjie Dong*, Rebecca A. Fischer, Lars P. Stixrude, Carolina Lithgow-Bertelloni \n
 /AGU Advances, 2021/ \n
-\[[https://doi.org/10.1029/2020AV000323 Publisher's version]\] \[[https://doi.org/10.1126/science.abh4289 News article from Science]\] \[[https://news.harvard.edu/gazette/story/2021/04/harvard-scientists-determine-early-earth-may-have-been-a-water-world/ News article from Harvard Gazette]\] \[[https://www.syfy.com/syfy-wire/was-earth-once-a-water-world News article from SYFY]\] \[[https://eos.org/editor-highlights/watering-down-the-mantle Editor's highlight from Eos]\]
-
-- *Melting curve minimum of barium carbonate BaCO₃ near 5 GPa.* \n
-  *Junjie Dong*, Jie Li, Feng Zhu, Zeyu Li, Rami Farawi
-\n/American Mineralogist, 2019/.\n
-\[[https://doi.org/10.2138/am-2019-6891 Publisher's version]\] \[[dong-2019-am-baco3.pdf Author's copy]\]
+\[[https://doi.org/10.1029/2020AV000323 Paper]\]
 
 [papers.html → Full list of publications]
 

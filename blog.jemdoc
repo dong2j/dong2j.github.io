@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{blog.html}
+# jemdoc: menu{MENU}{blog.html}, title{Blog}
 
 = Blog
 

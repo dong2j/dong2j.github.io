@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{teaching.html}
+# jemdoc: menu{MENU}{teaching.html}, title{GEO 604 (Fall 2026)}
 
 = GEO 604: Topics in Planetary Science\n(Water & Planetary Habitability)
 
@@ -18,12 +18,12 @@ Water is inseparable from life as we know it and from the physical, chemical, an
 {}{table}{schedule}
 Week | Topic | Papers ||
 1 | Orientation | --- ||
-2 | What is Habitability: Follow the Water! | Dole and Asimov (1964), Ch. 1,2,4 from /Planets for Man/\nApai et al (2025) ||
+2 | What is Habitability: Follow the Water! | Dole and Asimov (1964), Ch. 1,2,4 from /Planets for Man/\nApai et al. (2025) ||
 3 | The Origin of Water on Earth | O'Brien et al. (2012)\nBreuer (2018) ||
 4 | Water and the Deep Interior | Karato (2006)\nMosenfelder et al. (2024)\nNovella et al. (2024) ||
 5 | Water and Plate Tectonics | van Keken et al. (2011)\nCawood et al. (2025) ||
 6 | Snowball Earth and Climate Extremes | Catling and Kasting (2017), Ch. 11 from /Atmospheric Evolution on Inhabited and Lifeless Worlds/\nHoffman et al. (2017)\n ||
-7 | Mars: A Wet Past? | Vertesi (2015), Intro. from /See Like A Rover/\nZaki and Lamb (2026)||
+7 | Mars: A Wet Past? | Vertesi (2015), Intro. from /Seeing Like A Rover/\nZaki and Lamb (2026)||
 8 | Venus: A Failed Earth? | Ingersoll (1969)\nWay et al. (2016) ||
 9 | Icy Moons and Hidden Oceans | Vance et al. (2023)\nReynard and Sotin (2023) ||
 10 | Exoplanets I: Goldilocks Worlds | Kasting et al. (1993)\nZahnle and Catling (2017)||
