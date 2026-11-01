@@ -24,31 +24,31 @@
 <h1>Seen</h1>
 <h2>Field</h2>
 <div class="slideframe" data-folder="figs/seen/field/"
-     style="width:100%; max-width:300px; aspect-ratio:3/2; background:#ede8de; border-radius:6px; overflow:hidden; cursor:pointer;">
-  <img alt="" style="display:block; width:100%; height:100%; object-fit:contain; visibility:hidden;">
-</div>
+     style="width:100%; max-width:300px; aspect-ratio:3/2; background-color:#ede8de; background-size:contain; background-position:center; background-repeat:no-repeat; border-radius:6px; cursor:pointer;"></div>
 <h2>Archive</h2>
 <div class="slideframe" data-folder="figs/seen/archive/"
-     style="width:100%; max-width:300px; aspect-ratio:3/2; background:#ede8de; border-radius:6px; overflow:hidden; cursor:pointer;">
-  <img alt="" style="display:block; width:100%; height:100%; object-fit:contain; visibility:hidden;">
-</div>
+     style="width:100%; max-width:300px; aspect-ratio:3/2; background-color:#ede8de; background-size:contain; background-position:center; background-repeat:no-repeat; border-radius:6px; cursor:pointer;"></div>
 <script>
 document.querySelectorAll(".slideframe").forEach(function (frame) {
-  var img = frame.querySelector("img"), folder = frame.dataset.folder, n = 1;
-  frame.onclick = function () { if (img.src) window.open(img.src, "_blank"); };
-  img.onload = function () { img.style.visibility = "visible"; };
-  img.onerror = function () {
-    img.style.visibility = "hidden";
-    if (n > 2) { n = 2; img.src = folder + "1.jpg"; }
-  };
-  function next() { img.src = folder + n + ".jpg"; n++; }
-  next();
-  setInterval(next, 4000);
+  var folder = frame.dataset.folder, n = 1, current = "";
+  frame.onclick = function () { if (current) window.open(current, "_blank"); };
+  function show(k) {
+    var url = folder + k + ".jpg", probe = new Image();
+    probe.onload = function () {
+      current = url;
+      frame.style.backgroundImage = "url('" + url + "')";
+      n = k + 1;
+    };
+    probe.onerror = function () { if (k > 1) show(1); };
+    probe.src = url;
+  }
+  show(1);
+  setInterval(function () { show(n); }, 4000);
 });
 </script>
 <div id="footer">
 <div id="footer-text">
-Page generated 2026-10-31 23:20:07 EDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2026-11-01 03:24:48 UTC, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
