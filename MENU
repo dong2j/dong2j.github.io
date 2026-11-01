@@ -1,8 +1,8 @@
 MENU
 	Home			[index.html]
-	Vita			[bio.html] 			
+	Vita			[vita.html] 			
 	Papers			[papers.html]
-	People			[group.html]
+	People			[people.html]
         Teaching                [teaching.html]
-        Notes                   [blog.html]
+        Notes                   [notes.html]
         Seen                    [seen.html]
