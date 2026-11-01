@@ -23,6 +23,7 @@
 <td id="layout-content">
 <h1>Seen</h1>
 <h2>Field</h2>
+<!-- data-folder: where this slideshow's photos live; max-width: frame size; aspect-ratio: frame shape -->
 <div class="slideframe" data-folder="figs/seen/field/"
      style="width:100%; max-width:300px; aspect-ratio:4/3; background-color:#ede8de; background-size:contain; background-position:center; background-repeat:no-repeat; border-radius:6px; cursor:pointer;"></div>
 <p class="slidecap" style="max-width:300px; margin:0.4em 0 0;"></p>
@@ -30,15 +31,19 @@
 <div class="slideframe" data-folder="figs/seen/archive/"
      style="width:100%; max-width:300px; aspect-ratio:4/3; background-color:#ede8de; background-size:contain; background-position:center; background-repeat:no-repeat; border-radius:6px; cursor:pointer;"></div>
 <p class="slidecap" style="max-width:300px; margin:0.4em 0 0;"></p>
+<!-- This script runs BOTH slideshows (Field and Archive) -->
 <script>
 document.querySelectorAll(".slideframe").forEach(function (frame) {
   var folder = frame.dataset.folder, n = 1, current = "", caps = [];
   var cap = frame.nextElementSibling;
+  // Load captions.txt
   fetch(folder + "captions.txt", {cache: "no-cache"})
     .then(function (r) { return r.ok ? r.text() : ""; })
     .then(function (t) { caps = t.split(/\r?\n/); cap.textContent = caps[n - 2] || ""; })
     .catch(function () {});
+  // Click a photo to open it full size
   frame.onclick = function () { if (current) window.open(current, "_blank"); };
+  // Show photo k.jpg; if it doesn't exist, go back to 1.jpg
   function show(k) {
     var url = folder + k + ".jpg", probe = new Image();
     probe.onload = function () {
@@ -51,12 +56,13 @@ document.querySelectorAll(".slideframe").forEach(function (frame) {
     probe.src = url;
   }
   show(1);
+  // Next photo every 8000 ms (8 seconds)
   setInterval(function () { show(n); }, 8000);
 });
 </script>
 <div id="footer">
 <div id="footer-text">
-Page generated 2026-11-01 04:07:41 UTC, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2026-11-01 04:15:05 UTC, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
