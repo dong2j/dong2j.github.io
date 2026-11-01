@@ -25,44 +25,55 @@
 <h2>Field</h2>
 <!-- data-folder: where this slideshow's photos live; max-width: frame size; aspect-ratio: frame shape -->
 <div class="slideframe" data-folder="figs/seen/field/"
-     style="width:100%; max-width:300px; aspect-ratio:4/3; background-color:#ede8de; background-size:contain; background-position:center; background-repeat:no-repeat; border-radius:6px; cursor:pointer;"></div>
-<p class="slidecap" style="max-width:300px; margin:0.4em 0 0;"></p>
+     style="width:100%; max-width:300px; aspect-ratio:4/3; background-color:#ede8de; background-size:contain; background-position:center; background-repeat:no-repeat; border-radius:6px; cursor:pointer; position:relative;">
+  <a href="#" class="prev" style="left:8px; position:absolute; top:50%; transform:translateY(-50%); width:28px; height:28px; line-height:26px; text-align:center; border-radius:50%; background:rgba(245,242,235,0.8); color:#2c2a24; font-size:20px; text-decoration:none; border:none;">&lsaquo;</a>
+  <a href="#" class="next" style="right:8px; position:absolute; top:50%; transform:translateY(-50%); width:28px; height:28px; line-height:26px; text-align:center; border-radius:50%; background:rgba(245,242,235,0.8); color:#2c2a24; font-size:20px; text-decoration:none; border:none;">&rsaquo;</a>
+  <span class="count" style="position:absolute; top:8px; right:8px; padding:1px 8px; border-radius:10px; background:rgba(245,242,235,0.8); color:#2c2a24; font-size:0.8em;"></span>
+</div>
+<p class="slidecap" style="margin:0.4em 0 0; white-space:nowrap;"></p>
 <h2>Archive</h2>
 <div class="slideframe" data-folder="figs/seen/archive/"
-     style="width:100%; max-width:300px; aspect-ratio:4/3; background-color:#ede8de; background-size:contain; background-position:center; background-repeat:no-repeat; border-radius:6px; cursor:pointer;"></div>
-<p class="slidecap" style="max-width:300px; margin:0.4em 0 0;"></p>
+     style="width:100%; max-width:300px; aspect-ratio:4/3; background-color:#ede8de; background-size:contain; background-position:center; background-repeat:no-repeat; border-radius:6px; cursor:pointer; position:relative;">
+  <a href="#" class="prev" style="left:8px; position:absolute; top:50%; transform:translateY(-50%); width:28px; height:28px; line-height:26px; text-align:center; border-radius:50%; background:rgba(245,242,235,0.8); color:#2c2a24; font-size:20px; text-decoration:none; border:none;">&lsaquo;</a>
+  <a href="#" class="next" style="right:8px; position:absolute; top:50%; transform:translateY(-50%); width:28px; height:28px; line-height:26px; text-align:center; border-radius:50%; background:rgba(245,242,235,0.8); color:#2c2a24; font-size:20px; text-decoration:none; border:none;">&rsaquo;</a>
+  <span class="count" style="position:absolute; top:8px; right:8px; padding:1px 8px; border-radius:10px; background:rgba(245,242,235,0.8); color:#2c2a24; font-size:0.8em;"></span>
+</div>
+<p class="slidecap" style="margin:0.4em 0 0; white-space:nowrap;"></p>
 <!-- This script runs BOTH slideshows (Field and Archive) -->
 <script>
 document.querySelectorAll(".slideframe").forEach(function (frame) {
-  var folder = frame.dataset.folder, n = 1, current = "", caps = [];
-  var cap = frame.nextElementSibling;
+  var folder = frame.dataset.folder;
+  var cap = frame.nextElementSibling, count = frame.querySelector(".count");
+  var urls = [], caps = [], i = 0;
+  // Show photo number i (with its caption and "2 / 4" counter)
+  function show() {
+    if (!urls.length) return;
+    frame.style.backgroundImage = "url('" + urls[i] + "')";
+    cap.textContent = caps[i] || "";
+    count.textContent = (i + 1) + " / " + urls.length;
+  }
+  // Arrows: previous / next, wrapping around at the ends
+  frame.querySelector(".prev").onclick = function (e) { e.preventDefault(); e.stopPropagation(); i = (i - 1 + urls.length) % urls.length; show(); };
+  frame.querySelector(".next").onclick = function (e) { e.preventDefault(); e.stopPropagation(); i = (i + 1) % urls.length; show(); };
+  // Click a photo to open it full size
+  frame.onclick = function () { if (urls.length) window.open(urls[i], "_blank"); };
   // Load captions.txt
   fetch(folder + "captions.txt", {cache: "no-cache"})
     .then(function (r) { return r.ok ? r.text() : ""; })
-    .then(function (t) { caps = t.split(/\r?\n/); cap.textContent = caps[n - 2] || ""; })
+    .then(function (t) { caps = t.split(/\r?\n/); show(); })
     .catch(function () {});
-  // Click a photo to open it full size
-  frame.onclick = function () { if (current) window.open(current, "_blank"); };
-  // Show photo k.jpg; if it doesn't exist, go back to 1.jpg
-  function show(k) {
-    var url = folder + k + ".jpg", probe = new Image();
-    probe.onload = function () {
-      current = url;
-      frame.style.backgroundImage = "url('" + url + "')";
-      cap.textContent = caps[k - 1] || "";
-      n = k + 1;
-    };
-    probe.onerror = function () { if (k > 1) show(1); };
-    probe.src = url;
+  // Find 1.jpg, 2.jpg, ... until one is missing
+  function find(k) {
+    var img = new Image();
+    img.onload = function () { urls.push(folder + k + ".jpg"); if (k === 1) show(); else count.textContent = (i + 1) + " / " + urls.length; find(k + 1); };
+    img.src = folder + k + ".jpg";
   }
-  show(1);
-  // Next photo every 8000 ms (8 seconds)
-  setInterval(function () { show(n); }, 8000);
+  find(1);
 });
 </script>
 <div id="footer">
 <div id="footer-text">
-Page generated 2026-11-01 04:15:05 UTC, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2026-11-01 04:32:40 UTC, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
