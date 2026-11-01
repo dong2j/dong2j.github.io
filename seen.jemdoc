@@ -1,0 +1,35 @@
+# jemdoc: menu{MENU}{seen.html}, title{Seen}
+
+= Seen
+
+== Field
+~~~
+{}{raw}
+<div class="slideframe" data-folder="figs/seen/field/"
+     style="width:100%; max-width:300px; aspect-ratio:3/2; background:#ede8de; border-radius:6px; overflow:hidden; cursor:pointer;">
+  <img alt="" style="display:block; width:100%; height:100%; object-fit:contain; visibility:hidden;">
+</div>
+~~~
+
+== Archive
+~~~
+{}{raw}
+<div class="slideframe" data-folder="figs/seen/archive/"
+     style="width:100%; max-width:300px; aspect-ratio:3/2; background:#ede8de; border-radius:6px; overflow:hidden; cursor:pointer;">
+  <img alt="" style="display:block; width:100%; height:100%; object-fit:contain; visibility:hidden;">
+</div>
+<script>
+document.querySelectorAll(".slideframe").forEach(function (frame) {
+  var img = frame.querySelector("img"), folder = frame.dataset.folder, n = 1;
+  frame.onclick = function () { if (img.src) window.open(img.src, "_blank"); };
+  img.onload = function () { img.style.visibility = "visible"; };
+  img.onerror = function () {
+    img.style.visibility = "hidden";
+    if (n > 2) { n = 2; img.src = folder + "1.jpg"; }
+  };
+  function next() { img.src = folder + n + ".jpg"; n++; }
+  next();
+  setInterval(next, 4000);
+});
+</script>
+~~~
