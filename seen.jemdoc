@@ -7,6 +7,7 @@
 {}{raw}
 <div class="slideframe" data-folder="figs/seen/field/"
      style="width:100%; max-width:300px; aspect-ratio:3/2; background-color:#ede8de; background-size:contain; background-position:center; background-repeat:no-repeat; border-radius:6px; cursor:pointer;"></div>
+<p class="slidecap" style="max-width:300px; margin:0.4em 0 0; font-size:0.9em; font-style:italic; color:#4a3f2f;"></p>
 ~~~
 
 == Archive
@@ -14,15 +15,22 @@
 {}{raw}
 <div class="slideframe" data-folder="figs/seen/archive/"
      style="width:100%; max-width:300px; aspect-ratio:3/2; background-color:#ede8de; background-size:contain; background-position:center; background-repeat:no-repeat; border-radius:6px; cursor:pointer;"></div>
+<p class="slidecap" style="max-width:300px; margin:0.4em 0 0; font-size:0.9em; font-style:italic; color:#4a3f2f;"></p>
 <script>
 document.querySelectorAll(".slideframe").forEach(function (frame) {
-  var folder = frame.dataset.folder, n = 1, current = "";
+  var folder = frame.dataset.folder, n = 1, current = "", caps = [];
+  var cap = frame.nextElementSibling;
+  fetch(folder + "captions.txt", {cache: "no-cache"})
+    .then(function (r) { return r.ok ? r.text() : ""; })
+    .then(function (t) { caps = t.split(/\r?\n/); cap.textContent = caps[n - 2] || ""; })
+    .catch(function () {});
   frame.onclick = function () { if (current) window.open(current, "_blank"); };
   function show(k) {
     var url = folder + k + ".jpg", probe = new Image();
     probe.onload = function () {
       current = url;
       frame.style.backgroundImage = "url('" + url + "')";
+      cap.textContent = caps[k - 1] || "";
       n = k + 1;
     };
     probe.onerror = function () { if (k > 1) show(1); };
