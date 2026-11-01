@@ -37,7 +37,7 @@ document.querySelectorAll(".slideframe").forEach(function (frame) {
     probe.src = url;
   }
   show(1);
-  setInterval(function () { show(n); }, 4000);
+  setInterval(function () { show(n); }, 8000);
 });
 </script>
 ~~~
