@@ -254,7 +254,9 @@ def standardconf():
   </div>
   
   [lastupdated]
-  Page generated |, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+  # JJ EDIT (2026-11-20): the original line is shown below: 
+  # Page generated |, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+  &copy;|1 by Junjie Dong. Page last updated |2.
 
   [sourcelink]
   (<a href="|">source</a>)
@@ -1555,7 +1557,9 @@ def procfile(f):
       else:
         ts = '%Y-%m-%d'
       s = time.strftime(ts, time.localtime(time.time()))
-      hb(f.outf, f.conf['lastupdated'], s)
+      # JJ EDIT (2026-11-20): pass the year as |1 and the timestamp as |2
+      # Original line was: hb(f.outf, f.conf['lastupdated'], s)
+      hb(f.outf, f.conf['lastupdated'], time.strftime('%Y'), s)
     if showsourcelink:
       hb(f.outf, f.conf['sourcelink'], f.inname)
     out(f.outf, f.conf['footerend'])
