@@ -1,6 +1,6 @@
 # robots.txt for thelattices.org
-# Content on this site is (c) Junjie Dong and licensed under CC BY 4.0.
-# Reuse is welcome with attribution: https://creativecommons.org/licenses/by/4.0/
+# Content on this site is (c) Junjie Dong and licensed under CC BY-NC-ND 4.0.
+# Non-commercial sharing of unchanged copies is welcome with attribution: https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 # Everyone: search and live AI lookups allowed (these cite and link back),
 # AI training not allowed.

@@ -3,11 +3,12 @@
 Copyright (c) 2026 Junjie Dong
 
 The written content, notes, and images on www.thelattices.org are licensed under
-the Creative Commons Attribution 4.0 International License (CC BY 4.0):
-https://creativecommons.org/licenses/by/4.0/
+the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0):
+https://creativecommons.org/licenses/by-nc-nd/4.0/
 
-You may share and adapt this material for any purpose, provided you give
-appropriate credit, link to the license, and indicate if changes were made.
+You may copy and share this material in unchanged form for non-commercial
+purposes, provided you give appropriate credit and link to the license. You may
+not use it commercially or distribute adapted versions of it.
 
 Please cite as:
 Junjie Dong, "Page Title," https://www.thelattices.org/PAGE.html

@@ -2,8 +2,8 @@
 
 > Personal academic website of Junjie Dong, Assistant Professor of Geosciences
 > at Stony Brook University (mineral physics, planetary materials).
-> All content (c) Junjie Dong, licensed under CC BY 4.0
-> (https://creativecommons.org/licenses/by/4.0/). Any reuse, quotation, or
+> All content (c) Junjie Dong, licensed under CC BY-NC-ND 4.0
+> (https://creativecommons.org/licenses/by-nc-nd/4.0/). Any reuse, quotation, or
 > summary must credit "Junjie Dong, thelattices.org" and link to the original page.
 
 ## How to cite
