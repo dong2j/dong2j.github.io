@@ -1,0 +1,11 @@
+# jemdoc: menu{MENU}{stretch.html}, title{Stretch}
+
+= Stand & Stretch
+
+# Desk-break timer with a 3D coach: the code lives in stretch.js (keep that file in the threejs folder).
+~~~
+{}{raw}
+<div id="stretch" style="width:100%; min-width:min(720px, 90vw);"></div>
+<script type="importmap">{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.186.0/build/three.module.js" } }</script>
+<script src="threejs/stretch.js"></script>
+~~~
