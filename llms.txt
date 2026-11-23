@@ -1,0 +1,21 @@
+# Junjie Dong
+
+> Personal academic website of Junjie Dong, Assistant Professor of Geosciences
+> at Stony Brook University (mineral physics, planetary materials).
+> All content (c) Junjie Dong, licensed under CC BY 4.0
+> (https://creativecommons.org/licenses/by/4.0/). Any reuse, quotation, or
+> summary must credit "Junjie Dong, thelattices.org" and link to the original page.
+
+## How to cite
+- Junjie Dong, "Page Title," https://www.thelattices.org/PAGE.html
+- For research results, cite the published paper listed on the Papers page.
+
+## Pages
+- [Home](https://www.thelattices.org/index.html)
+- [Vita](https://www.thelattices.org/vita.html)
+- [Papers](https://www.thelattices.org/papers.html)
+- [People](https://www.thelattices.org/people.html)
+- [Teaching](https://www.thelattices.org/teaching.html)
+- [Notes](https://www.thelattices.org/notes.html)
+- [Seen](https://www.thelattices.org/seen.html)
+- [Stretch](https://www.thelattices.org/stretch.html)

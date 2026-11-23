@@ -139,6 +139,22 @@ def standardconf():
   <head>
   <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  # JJ EDIT (2026-11-22): authorship and license, read by search engines and AI tools.
+  <meta name="author" content="Junjie Dong" />
+  <meta name="copyright" content="Junjie Dong. Licensed under CC BY 4.0." />
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/" />
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "WebSite",
+   "name": "Junjie Dong", "url": "https://www.thelattices.org/",
+   "author": {"@type": "Person", "name": "Junjie Dong",
+              "affiliation": "Stony Brook University",
+              "sameAs": ["https://orcid.org/0000-0003-1114-9348",
+                         "https://scholar.google.com/citations?user=hRzq820AAAAJ",
+                         "https://github.com/dong2j"]},
+   "copyrightHolder": {"@type": "Person", "name": "Junjie Dong"},
+   "license": "https://creativecommons.org/licenses/by/4.0/",
+   "usageInfo": "https://www.thelattices.org/LICENSE.md"}
+  </script>
   
   [defaultcss]
   <link rel="stylesheet" href="jemdoc.css" type="text/css" />
@@ -257,6 +273,8 @@ def standardconf():
   # JJ EDIT (2026-11-20): the original line is shown below: 
   # Page generated |, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
   &copy;|1 by Junjie Dong. Page last updated |2.
+  # JJ EDIT (2026-11-22): license and credit line.
+  <br />Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>. Reuse, including by AI systems, must credit Junjie Dong, thelattices.org, with a link to the original page.
 
   [sourcelink]
   (<a href="|">source</a>)
