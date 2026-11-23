@@ -272,9 +272,9 @@ def standardconf():
   [lastupdated]
   # JJ EDIT (2026-11-20): the original line is shown below: 
   # Page generated |, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
-  &copy;|1 by Junjie Dong. Page last updated |2.
-  # JJ EDIT (2026-11-22): license and credit line.
-  <br />Content licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>. Reuse, including by AI systems, must credit Junjie Dong, thelattices.org, with a link to the original page.
+  # JJ EDIT (2026-11-23, later): new two-line wording. Was: &copy; |1 Junjie Dong. Updated |2.<br />CC BY 4.0. Reusers, including AI tools, should credit Junjie Dong (thelattices.org) and link to this page.
+  &copy; Junjie Dong, |1. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">CC BY 4.0</a>. Updated |2.
+  <br />If you reuse this content, including with AI tools, please credit Junjie Dong (<a href="https://thelattices.org">thelattices.org</a>) and provide a link to this page.
 
   [sourcelink]
   (<a href="|">source</a>)
@@ -1571,7 +1571,8 @@ def procfile(f):
     out(f.outf, f.conf['footerstart'])
     if showlastupdated:
       if showlastupdatedtime:
-        ts = '%Y-%m-%d %H:%M:%S %Z'
+        # JJ EDIT (2026-11-23): date as 'November 22, 2026'. Original: ts = '%Y-%m-%d %H:%M:%S %Z'
+        ts = '%B %-d, %Y'
       else:
         ts = '%Y-%m-%d'
       s = time.strftime(ts, time.localtime(time.time()))
