@@ -274,8 +274,7 @@ def standardconf():
   # Page generated |, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
   # JJ EDIT (2026-11-23, later): new two-line wording. Was: &copy; |1 Junjie Dong. Updated |2.<br />CC BY 4.0. Reusers, including AI tools, should credit Junjie Dong (thelattices.org) and link to this page.
   # JJ EDIT (2026-11-23): license changed from CC BY 4.0 to CC BY-SA 4.0, then to CC BY-NC-ND 4.0.
-  &copy; Junjie Dong, |1. Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">CC BY-NC-ND 4.0</a>. Updated |2.
-  <br />If you reuse this content, including with AI tools, please credit Junjie Dong (<a href="https://thelattices.org">thelattices.org</a>) and provide a link to this page.
+  &copy; |1, Junjie Dong. <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" rel="license">CC BY-NC-ND 4.0</a>. Updated |2.
 
   [sourcelink]
   (<a href="|">source</a>)
