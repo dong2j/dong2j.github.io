@@ -18,7 +18,7 @@
 	--link:  #326891;
 	--muted: #6b6b6b;   /* code comments only (5.3:1 on white) */
 	--select: #dbe6ef;  /* NYT blue, washed: text selection */
-	--sans: "Geneva", "PT Sans", "Helvetica Neue", Arial, sans-serif;   /* Geneva on Macs on purpose; PT Sans everywhere else */
+	--sans: "Geneva", "PT Sans", "Helvetica", Arial, sans-serif;   /* Geneva on Macs on purpose; PT Sans everywhere else */
 	--mono: monaco, "PT Mono", Menlo, Consolas, monospace;
 }
 
