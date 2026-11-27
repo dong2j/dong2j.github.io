@@ -20,7 +20,7 @@ Here, rather than trying to comment on the specifics of geodynamic modeling prac
 In my 2021 paper published in AGU Advances, we estimated the size of the surface ocean in the Archean using a mantle water storage capacity argument (details of which can be found in [https://doi.org/10.1029/2020AV000323 Dong et al. 2021]). We found that the Archean oceans might have been up to twice as large as the present-day ocean (Figure 1). This naturally led us to wonder how a larger early ocean might have altered the configuration of the Earth's surface, potentially resulting in a landscape drastically different from today's Earth.
 
 ~~~
-{}{img_left}{figs/blog/20240710/fig1_early_earth.jpg}{Artist's impression of the early Archean Earth}{300}
+{}{img_left}{figs/blog/20240710/fig1_early_earth.jpg}{Artist's impression of the early Archean Earth}{600px}
 ~~~
 
 *Figure 1.* An artist's impression of the early Archean Earth, with minimal landmasses and a global ocean. Image credit: Alec Brenner.
@@ -30,7 +30,7 @@ For those working on the classic post-glacial sea level problem, modeling Archea
 In seeking a simple model to describe the solid Earth's influence on sea level change over billions of years, we settled on a continental freeboard model based on isostatic balance, constructed by Flament et al. (2008) and later improved by Korenaga et al. (2017) and Rosas & Korenaga (2021). The isostatic model is used to relate the densities and thicknesses of different layers of the Earth's surface to the sea level, including continental crust, oceanic crust, lithospheric mantle, and asthenospheric mantle (Figure 2).
 
 ~~~
-{}{img_left}{figs/blog/20240710/fig2_freeboard.jpg}{Schematic of continental freeboard modeling}{400}
+{}{img_left}{figs/blog/20240710/fig2_freeboard.jpg}{Schematic of continental freeboard modeling}{600px}
 ~~~
 
 *Figure 2.* Schematic of continental freeboard modeling of the Archean Earth. Figure adapted from Korenaga et al. (2017).
@@ -38,7 +38,7 @@ In seeking a simple model to describe the solid Earth's influence on sea level c
 Our findings (Dong et al. 2021, Figure 3) suggest that if the early oceans were more than twice their current volume, the continents were likely covered entirely by water, with only a few subaerial landmasses from hotspot volcanism or oceanic plateaus. If the early ocean was 1–2 times the present-day volume, the continents would still be largely flooded. With a fixed ocean volume, increasing the size of the early continental crust or decreasing its topography increases the flooded fraction.
 
 ~~~
-{}{img_left}{figs/blog/20240710/fig3_flooding.jpg}{Flooding of the Archean Earth with various surface configurations}{600}
+{}{img_left}{figs/blog/20240710/fig3_flooding.jpg}{Flooding of the Archean Earth with various surface configurations}{800px}
 ~~~
 
 *Figure 3.* Flooding of the Archean Earth with various surface configurations; figures based on the results of Dong et al. (2021). Abbreviation: fc: fraction of the present-day continents; fe: fraction of the present-day elevation.

@@ -415,6 +415,11 @@ table.imgtable, table.imgtable td {
 	text-align: left;
 }
 
+/* Image and the text beside it start at the same top line */
+table.imgtable td {
+	vertical-align: top;
+}
+
 /* Pressed links darken to ink */
 a:active {
 	color: var(--ink);
