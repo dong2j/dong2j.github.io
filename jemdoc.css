@@ -2,7 +2,7 @@
  * floor: 0 FAIL · fixed: 8 (4, 6, 26b, 48, 7a, F3, F16, phone width) · structural: 0 printed
  * surface: absolute · built: the project · redesign: polish · v2.0.0 */
 /* Hallmark · waive 7b · paper token is pure white on purpose · the NYT newsprint palette this site follows is white paper, ink and one blue */
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* jemdoc CSS — NYTimes color palette (4 colors)
    #ffffff  white     — all backgrounds
@@ -18,7 +18,7 @@
 	--link:  #326891;
 	--muted: #6b6b6b;   /* code comments only (5.3:1 on white) */
 	--select: #dbe6ef;  /* NYT blue, washed: text selection */
-	--sans: "Geneva", "PT Sans", "Helvetica Neue", Arial, sans-serif;   /* Geneva on Macs on purpose; PT Sans everywhere else */
+	--sans: "Geneva", "Merriweather Sans", "Helvetica Neue", Arial, sans-serif;   /* Geneva on Macs on purpose; Merriweather Sans everywhere else */
 	--mono: monaco, "PT Mono", Menlo, Consolas, monospace;
 }
 
